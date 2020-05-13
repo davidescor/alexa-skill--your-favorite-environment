@@ -1,0 +1,96 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tu ambiente favorito",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "ayuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        " no más ambientes",
+                        "salir"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "EnvironmentIntent",
+                    "slots": [
+                        {
+                            "name": "environment",
+                            "type": "environmentSlot"
+                        }
+                    ],
+                    "samples": [
+                        "{environment}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "environmentSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "jardín"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ciudad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fútbol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lluvia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "restaurante"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aeropuerto"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "construcción"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "comercio"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
