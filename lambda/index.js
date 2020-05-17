@@ -75,7 +75,7 @@ const ExitHandler = {
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
-      .speak("Cerrando la skill, tus animales favoritos, hasta pronto!")
+      .speak("Cerrando la skill, tu ambiente favorito, hasta pronto!")
       .getResponse();
   },
 };
