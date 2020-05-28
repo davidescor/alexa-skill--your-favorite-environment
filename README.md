@@ -3,9 +3,9 @@
 </p>
 
 
-# alexa-skill-your-favorite-animals
+# alexa-skill-your-favorite-environment
 
-Skiil for alexa, where you can listen to the sounds of various animals.
+Skiil for alexa, where you can listen to the sounds of various environments.
 
 ## Requirements
 
